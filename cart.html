@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu - Sweet Crumbs</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="order.js" defer></script>
+</head>
+<body>
+
+<header>
+    <div class="logo">Sweet Crumbs</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Our Menu</a>
+        <a href="index.html#about">About</a>
+        <a href="cart.html">Cart 🛒 <span id="cartCount">0</span></a>
+    </nav>
+</header>
+
+<section class="menu-section">
+
+    <h1>Our Delicious Menu</h1>
+    <p>Choose your favourite bakery products.</p>
+
+    <div class="menu-controls">
+        <input type="search" id="searchInput"
+               placeholder="Search products...">
+
+        <select id="categoryFilter">
+            <option value="All">All Categories</option>
+            <option value="Cakes">Cakes</option>
+            <option value="Bread">Bread</option>
+            <option value="Pastries">Pastries</option>
+            <option value="Cookies">Cookies</option>
+        </select>
+    </div>
+
+    <div class="product-grid" id="productContainer"></div>
+
+</section>
+
+<footer>
+    <h3>Sweet Crumbs Bakery</h3>
+    <p>Freshly baked, always made with love.</p>
+</footer>
+
+</body>
+</html>
+
+Menu
